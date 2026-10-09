@@ -1,0 +1,30 @@
+# 依赖
+node_modules/
+dist/
+target/
+
+# 日志
+*.log
+npm-debug.log*
+
+# 编辑器
+.vscode/
+.idea/
+.trae/
+*.swp
+*.swo
+*~
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# Tauri
+src-tauri/target/
+
+# 内置二进制（体积大，由 scripts/download-binaries.sh 拉取）
+src-tauri/binaries/
+
+# 环境变量
+.env
+.env.local
