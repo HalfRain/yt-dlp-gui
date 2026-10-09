@@ -25,6 +25,9 @@ src-tauri/target/
 # 内置二进制（体积大，由 scripts/download-binaries.sh 拉取）
 src-tauri/binaries/
 
+# SSH 密钥（本地认证用，绝不提交）
+.ssh/
+
 # 环境变量
 .env
 .env.local
